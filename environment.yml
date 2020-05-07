@@ -22,5 +22,5 @@ dependencies:
     - itk-registration==5.0.1
     - pyevtk==1.1.1
     - vtk==8.1.2
-    - vtkplotter==2020.2.4
+    - vtkplotter==2020.3.0
     - matplotlib
