@@ -6,15 +6,17 @@ dependencies:
   - python=3.7.4
   - python-dateutil=2.8.0=py37_0
   - python-libarchive-c=2.8=py37_13
+  - numpy=1.19.5
   - notebook=6.0.1=py37_0
   - jupyterlab=1.1.4=pyhf63ae98_0
   - jupyterlab_server=1.0.6=py_0
   - ipywidgets=7.5.1=py_0
-  - pandas=0.25.1
+  - pandas=1.2.4
   - scipy=1.3.1
   - pip=19.2.3=py37_0
   - itkwidgets=0.24.1=py37_0
   - k3d=2.7.1
+  - ipywidgets=7.5.1
   - pip:
     - itk-core==5.0.1
     - itk-filtering==5.0.1
@@ -22,5 +24,8 @@ dependencies:
     - itk-registration==5.0.1
     - pyevtk==1.1.1
     - vtk==8.1.2
-    - vtkplotter==2020.3.0
-    - matplotlib
+    - meshio==3.3.1
+    - matplotlib==3.3.1
+    - vedo == 2020.4.2
+    - scikit-learn == 0.23.2
+    - ipython == 7.18.1
